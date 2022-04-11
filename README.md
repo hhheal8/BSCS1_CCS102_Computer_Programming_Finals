@@ -22,6 +22,7 @@ IDE      - Visual Studio Code
 * Download and Install the GCC compiler @ - https://winlibs.com/
 * Also Download and Install CMake @ - https://cmake.org/install/
 * Set your Environment Variables to add PATH/Path for Compiler and CMake bin directory - mingw64\bin and CMake\bin
+* Clean Rebuild All Projects with CMakeLists.txt
 
 # Author
 Gil Rovero
