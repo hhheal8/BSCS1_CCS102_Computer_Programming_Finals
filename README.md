@@ -3,9 +3,13 @@ Major Subject - CCS102 Computer Programming Finals May 2022
 
 ## Description
 A simple Create, Read, Update, Delete, and Search project with executable html file
+
 Written in C++20
+
 Compiler Dependent
+
 Compiler - GCC 11.2.0 mingw32 with CMake 3.22.0
+
 IDE      - Visual Studio Code
 
 ## Getting Started
