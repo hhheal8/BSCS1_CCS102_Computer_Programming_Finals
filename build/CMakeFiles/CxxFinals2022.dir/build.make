@@ -88,10 +88,12 @@ CxxFinals2022_OBJECTS = \
 
 # External object files for target CxxFinals2022
 CxxFinals2022_EXTERNAL_OBJECTS = \
-"C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build/CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.obj"
+"C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build/CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.obj" \
+"C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build/CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj"
 
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/main.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.obj
+CxxFinals2022.exe: CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/build.make
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/linklibs.rsp
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/objects1.rsp

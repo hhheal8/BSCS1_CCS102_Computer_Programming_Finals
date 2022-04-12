@@ -6,6 +6,11 @@
 },
 {
   "directory": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -fmodules-ts -std=c++20 -o CMakeFiles\\CxxFinals2022-modules.dir\\modules\\enter_name_of_the_file.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS1_CCS102_Computer_Programming_Finals\\modules\\enter_name_of_the_file.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/modules/enter_name_of_the_file.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build",
   "command": "C:\\mingw64\\bin\\g++.exe   -g -fmodules-ts -std=c++20 -o CMakeFiles\\CxxFinals2022.dir\\main.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS1_CCS102_Computer_Programming_Finals\\main.cpp",
   "file": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/main.cpp"
 }

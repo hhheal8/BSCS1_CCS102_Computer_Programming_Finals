@@ -222,6 +222,30 @@ modules/create_destroy_arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.s
 .PHONY : modules/create_destroy_arrays.cpp.s
 
+modules/enter_name_of_the_file.obj: modules/enter_name_of_the_file.cpp.obj
+.PHONY : modules/enter_name_of_the_file.obj
+
+# target to build an object file
+modules/enter_name_of_the_file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj
+.PHONY : modules/enter_name_of_the_file.cpp.obj
+
+modules/enter_name_of_the_file.i: modules/enter_name_of_the_file.cpp.i
+.PHONY : modules/enter_name_of_the_file.i
+
+# target to preprocess a source file
+modules/enter_name_of_the_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.i
+.PHONY : modules/enter_name_of_the_file.cpp.i
+
+modules/enter_name_of_the_file.s: modules/enter_name_of_the_file.cpp.s
+.PHONY : modules/enter_name_of_the_file.s
+
+# target to generate assembly for a file
+modules/enter_name_of_the_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.s
+.PHONY : modules/enter_name_of_the_file.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -241,6 +265,9 @@ help:
 	@echo ... modules/create_destroy_arrays.obj
 	@echo ... modules/create_destroy_arrays.i
 	@echo ... modules/create_destroy_arrays.s
+	@echo ... modules/enter_name_of_the_file.obj
+	@echo ... modules/enter_name_of_the_file.i
+	@echo ... modules/enter_name_of_the_file.s
 .PHONY : help
 
 

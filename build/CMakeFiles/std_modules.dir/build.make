@@ -67,7 +67,7 @@ include CMakeFiles/std_modules.dir/progress.make
 
 CMakeFiles/std_modules:
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo "Building standard library modules"
-	g++ -fmodules-ts -std=c++20 -c -x c++-system-header iostream string
+	g++ -fmodules-ts -std=c++20 -c -x c++-system-header cstddef iostream string
 
 std_modules: CMakeFiles/std_modules
 std_modules: CMakeFiles/std_modules.dir/build.make

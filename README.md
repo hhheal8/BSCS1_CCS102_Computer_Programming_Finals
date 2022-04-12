@@ -14,7 +14,7 @@ IDE      - Visual Studio Code
 
 ## Getting Started
 
-### Dependencies
+### Compiler and Build System
 * I compile this source with GCC 11.2.0 mingw32 compiler
 * built with CMake 3.22.0
 

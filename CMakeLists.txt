@@ -10,7 +10,7 @@ project(
 # Add target to build C++ includes module
 add_custom_target(std_modules ALL
   COMMAND ${CMAKE_COMMAND} -E echo "Building standard library modules"
-  COMMAND g++ -fmodules-ts -std=c++20 -c -x c++-system-header iostream string
+  COMMAND g++ -fmodules-ts -std=c++20 -c -x c++-system-header cstddef iostream string
   WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
 )
 
@@ -31,6 +31,7 @@ set(
 set(
   MODULES 
   modules/create_destroy_arrays.cpp
+  modules/enter_name_of_the_file.cpp
 )
 
 # Setup program modules object library

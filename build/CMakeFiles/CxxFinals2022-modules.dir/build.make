@@ -82,7 +82,22 @@ CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\modules\create_destroy_arrays.cpp -o CMakeFiles\CxxFinals2022-modules.dir\modules\create_destroy_arrays.cpp.s
 
+CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj: CMakeFiles/CxxFinals2022-modules.dir/flags.make
+CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj: ../modules/enter_name_of_the_file.cpp
+CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj: CMakeFiles/CxxFinals2022-modules.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj -MF CMakeFiles\CxxFinals2022-modules.dir\modules\enter_name_of_the_file.cpp.obj.d -o CMakeFiles\CxxFinals2022-modules.dir\modules\enter_name_of_the_file.cpp.obj -c C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\modules\enter_name_of_the_file.cpp
+
+CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\modules\enter_name_of_the_file.cpp > CMakeFiles\CxxFinals2022-modules.dir\modules\enter_name_of_the_file.cpp.i
+
+CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\modules\enter_name_of_the_file.cpp -o CMakeFiles\CxxFinals2022-modules.dir\modules\enter_name_of_the_file.cpp.s
+
 CxxFinals2022-modules: CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.obj
+CxxFinals2022-modules: CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj
 CxxFinals2022-modules: CMakeFiles/CxxFinals2022-modules.dir/build.make
 .PHONY : CxxFinals2022-modules
 
