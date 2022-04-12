@@ -6,7 +6,7 @@ using const_ull = const unsigned long long;
 
 //REVIEW: Allocate 1D Array 
 export template<typename ArrayType>
-constexpr auto *create_1d_array(const_ull &size) {
+constexpr ArrayType *create_1d_array(const_ull &size) {
 
   ArrayType *table_data = nullptr;
   table_data = new ArrayType[size];
