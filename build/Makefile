@@ -64,26 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Fina
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-.PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-.PHONY : package_source/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -136,32 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named std_modules
-
-# Build rule for target.
-std_modules: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 std_modules
-.PHONY : std_modules
-
-# fast build rule for target.
-std_modules/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\std_modules.dir\build.make CMakeFiles/std_modules.dir/build
-.PHONY : std_modules/fast
-
-#=============================================================================
-# Target rules for targets named CxxFinals2022-modules
-
-# Build rule for target.
-CxxFinals2022-modules: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CxxFinals2022-modules
-.PHONY : CxxFinals2022-modules
-
-# fast build rule for target.
-CxxFinals2022-modules/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/build
-.PHONY : CxxFinals2022-modules/fast
-
-#=============================================================================
 # Target rules for targets named CxxFinals2022
 
 # Build rule for target.
@@ -198,53 +152,77 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-modules/create_destroy_arrays.obj: modules/create_destroy_arrays.cpp.obj
-.PHONY : modules/create_destroy_arrays.obj
+source/create_destroy_arrays.obj: source/create_destroy_arrays.cpp.obj
+.PHONY : source/create_destroy_arrays.obj
 
 # target to build an object file
-modules/create_destroy_arrays.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.obj
-.PHONY : modules/create_destroy_arrays.cpp.obj
+source/create_destroy_arrays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.obj
+.PHONY : source/create_destroy_arrays.cpp.obj
 
-modules/create_destroy_arrays.i: modules/create_destroy_arrays.cpp.i
-.PHONY : modules/create_destroy_arrays.i
+source/create_destroy_arrays.i: source/create_destroy_arrays.cpp.i
+.PHONY : source/create_destroy_arrays.i
 
 # target to preprocess a source file
-modules/create_destroy_arrays.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.i
-.PHONY : modules/create_destroy_arrays.cpp.i
+source/create_destroy_arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.i
+.PHONY : source/create_destroy_arrays.cpp.i
 
-modules/create_destroy_arrays.s: modules/create_destroy_arrays.cpp.s
-.PHONY : modules/create_destroy_arrays.s
+source/create_destroy_arrays.s: source/create_destroy_arrays.cpp.s
+.PHONY : source/create_destroy_arrays.s
 
 # target to generate assembly for a file
-modules/create_destroy_arrays.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/create_destroy_arrays.cpp.s
-.PHONY : modules/create_destroy_arrays.cpp.s
+source/create_destroy_arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.s
+.PHONY : source/create_destroy_arrays.cpp.s
 
-modules/enter_name_of_the_file.obj: modules/enter_name_of_the_file.cpp.obj
-.PHONY : modules/enter_name_of_the_file.obj
+source/enter_name_of_the_file.obj: source/enter_name_of_the_file.cpp.obj
+.PHONY : source/enter_name_of_the_file.obj
 
 # target to build an object file
-modules/enter_name_of_the_file.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.obj
-.PHONY : modules/enter_name_of_the_file.cpp.obj
+source/enter_name_of_the_file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.obj
+.PHONY : source/enter_name_of_the_file.cpp.obj
 
-modules/enter_name_of_the_file.i: modules/enter_name_of_the_file.cpp.i
-.PHONY : modules/enter_name_of_the_file.i
+source/enter_name_of_the_file.i: source/enter_name_of_the_file.cpp.i
+.PHONY : source/enter_name_of_the_file.i
 
 # target to preprocess a source file
-modules/enter_name_of_the_file.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.i
-.PHONY : modules/enter_name_of_the_file.cpp.i
+source/enter_name_of_the_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.i
+.PHONY : source/enter_name_of_the_file.cpp.i
 
-modules/enter_name_of_the_file.s: modules/enter_name_of_the_file.cpp.s
-.PHONY : modules/enter_name_of_the_file.s
+source/enter_name_of_the_file.s: source/enter_name_of_the_file.cpp.s
+.PHONY : source/enter_name_of_the_file.s
 
 # target to generate assembly for a file
-modules/enter_name_of_the_file.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/modules/enter_name_of_the_file.cpp.s
-.PHONY : modules/enter_name_of_the_file.cpp.s
+source/enter_name_of_the_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.s
+.PHONY : source/enter_name_of_the_file.cpp.s
+
+start/start_program.obj: start/start_program.cpp.obj
+.PHONY : start/start_program.obj
+
+# target to build an object file
+start/start_program.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj
+.PHONY : start/start_program.cpp.obj
+
+start/start_program.i: start/start_program.cpp.i
+.PHONY : start/start_program.i
+
+# target to preprocess a source file
+start/start_program.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.i
+.PHONY : start/start_program.cpp.i
+
+start/start_program.s: start/start_program.cpp.s
+.PHONY : start/start_program.s
+
+# target to generate assembly for a file
+start/start_program.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.s
+.PHONY : start/start_program.cpp.s
 
 # Help Target
 help:
@@ -253,21 +231,20 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... package
-	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... std_modules
 	@echo ... CxxFinals2022
-	@echo ... CxxFinals2022-modules
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... modules/create_destroy_arrays.obj
-	@echo ... modules/create_destroy_arrays.i
-	@echo ... modules/create_destroy_arrays.s
-	@echo ... modules/enter_name_of_the_file.obj
-	@echo ... modules/enter_name_of_the_file.i
-	@echo ... modules/enter_name_of_the_file.s
+	@echo ... source/create_destroy_arrays.obj
+	@echo ... source/create_destroy_arrays.i
+	@echo ... source/create_destroy_arrays.s
+	@echo ... source/enter_name_of_the_file.obj
+	@echo ... source/enter_name_of_the_file.i
+	@echo ... source/enter_name_of_the_file.s
+	@echo ... start/start_program.obj
+	@echo ... start/start_program.i
+	@echo ... start/start_program.s
 .PHONY : help
 
 

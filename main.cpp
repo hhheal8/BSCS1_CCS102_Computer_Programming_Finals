@@ -1,7 +1,5 @@
-// import alloc_dealloc_arrays;
-// import create_user_file_name;
+#include "start_program.hpp"
 
 auto main() -> int {
-
-
+  start_program();
 }

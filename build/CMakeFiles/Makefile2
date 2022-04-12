@@ -62,8 +62,6 @@ CMAKE_BINARY_DIR = C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Fina
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/std_modules.dir/all
-all: CMakeFiles/CxxFinals2022-modules.dir/all
 all: CMakeFiles/CxxFinals2022.dir/all
 .PHONY : all
 
@@ -72,77 +70,22 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/std_modules.dir/clean
-clean: CMakeFiles/CxxFinals2022-modules.dir/clean
 clean: CMakeFiles/CxxFinals2022.dir/clean
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/std_modules.dir
-
-# All Build rule for target.
-CMakeFiles/std_modules.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\std_modules.dir\build.make CMakeFiles/std_modules.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\std_modules.dir\build.make CMakeFiles/std_modules.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num= "Built target std_modules"
-.PHONY : CMakeFiles/std_modules.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/std_modules.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/std_modules.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 0
-.PHONY : CMakeFiles/std_modules.dir/rule
-
-# Convenience name for target.
-std_modules: CMakeFiles/std_modules.dir/rule
-.PHONY : std_modules
-
-# clean rule for target.
-CMakeFiles/std_modules.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\std_modules.dir\build.make CMakeFiles/std_modules.dir/clean
-.PHONY : CMakeFiles/std_modules.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CxxFinals2022-modules.dir
-
-# All Build rule for target.
-CMakeFiles/CxxFinals2022-modules.dir/all: CMakeFiles/std_modules.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=3,4 "Built target CxxFinals2022-modules"
-.PHONY : CMakeFiles/CxxFinals2022-modules.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CxxFinals2022-modules.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CxxFinals2022-modules.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 0
-.PHONY : CMakeFiles/CxxFinals2022-modules.dir/rule
-
-# Convenience name for target.
-CxxFinals2022-modules: CMakeFiles/CxxFinals2022-modules.dir/rule
-.PHONY : CxxFinals2022-modules
-
-# clean rule for target.
-CMakeFiles/CxxFinals2022-modules.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022-modules.dir\build.make CMakeFiles/CxxFinals2022-modules.dir/clean
-.PHONY : CMakeFiles/CxxFinals2022-modules.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CxxFinals2022.dir
 
 # All Build rule for target.
-CMakeFiles/CxxFinals2022.dir/all: CMakeFiles/std_modules.dir/all
-CMakeFiles/CxxFinals2022.dir/all: CMakeFiles/CxxFinals2022-modules.dir/all
+CMakeFiles/CxxFinals2022.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=1,2 "Built target CxxFinals2022"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target CxxFinals2022"
 .PHONY : CMakeFiles/CxxFinals2022.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CxxFinals2022.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CxxFinals2022.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles 0
 .PHONY : CMakeFiles/CxxFinals2022.dir/rule
