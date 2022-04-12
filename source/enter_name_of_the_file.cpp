@@ -4,7 +4,7 @@ auto enter_file_name() -> std::string {
 
   std::string enter_proper_file_name = "";
 
-  const std::string dot_html_extn    = ".html";
+  const_str dot_html_extn = ".html";
 
   char enter_key = 0;
 
@@ -22,11 +22,11 @@ auto enter_file_name() -> std::string {
 
   if((enter_key == confirmation_key_big_y) || (enter_key == confirmation_key_small_y)) {
     is_valid_key = true;
-    std::cout << "\n\"" << enter_proper_file_name << "\" successfully created.";
+    std::cout << "\n\"" << enter_proper_file_name << "\" Successfully Created.";
   }
 
   if(is_valid_key == false) {
-    std::cout << "\nInvalid Confirmation Key.\nPlease Enter the Valid Confirmation Key.";
+    std::cout << "\nInvalid Confirmation Key.\nPlease Enter the Valid Confirmation Key.\n";
     return enter_file_name();
   }
 
