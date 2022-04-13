@@ -18,7 +18,7 @@ constexpr ArrayType **create_2d_array(const_ull &rows, const_ull &columns) {
   ArrayType **table_data = nullptr;
   table_data = new ArrayType*[rows];
 
-  for(ull i = 0; i < rows; i++) {
+  for(ull i = 0; i < rows; ++i) {
     table_data[i] = new ArrayType[columns];
   }
 
@@ -39,7 +39,7 @@ auto destroy_1d_array(ArrayType *table_data, const_ull &size) -> void {
 template<typename ArrayType>
 auto destroy_2d_array(ArrayType **table_data, const_ull &size) -> void {
 
-  for(ull i = 0; i < size; i++) {
+  for(ull i = 0; i < size; ++i) {
     delete[] table_data[i];
   }
   
