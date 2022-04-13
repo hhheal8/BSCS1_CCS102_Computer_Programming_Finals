@@ -16,13 +16,17 @@ IDE      - Visual Studio Code
 
 ### Compiler and Build System
 * I compile this source with GCC 11.2.0 mingw32 compiler
-* built with CMake 3.22.0
+* with CMake 3.22.0 build system
 
 ### Compiling and Running the program in Visual Studio Code
 * Download and Install the GCC compiler @ - https://winlibs.com/
 * Also Download and Install CMake @ - https://cmake.org/install/
 * Set your Environment Variables to add PATH/Path for Compiler and CMake bin directory - mingw64\bin and CMake\bin
 * Clean Rebuild All Projects with CMakeLists.txt
+
+### Running the code in terminal
+* cd build
+* .\CxxFinals2022.exe
 
 # Author
 Gil Rovero
