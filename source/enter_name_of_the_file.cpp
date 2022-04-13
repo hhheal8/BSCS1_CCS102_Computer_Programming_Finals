@@ -112,4 +112,4 @@ auto enter_file_name() -> std::string {
 //LINK: https://en.cppreference.com/w/cpp/types/numeric_limits
 
 //ANCHOR: Learning reference for STL iterator
-//LINK: https://en.cppreference.com/w/cpp/algorithm/remove
+//LINK: https://en.cppreference.com/w/cpp/algorithm/remove 
