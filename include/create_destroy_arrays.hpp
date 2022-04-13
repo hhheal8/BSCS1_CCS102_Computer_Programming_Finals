@@ -3,6 +3,8 @@
 
 #include "types_and_type_aliases.hpp"
 
+//REVIEW: `constexpr` - so array will be known at compile time
+
 template<typename ArrayType>
 constexpr ArrayType *create_1d_array(const_ull &size);
 

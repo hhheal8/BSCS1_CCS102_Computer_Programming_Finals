@@ -4,9 +4,11 @@ auto create_user_file(const_str &user_file_name) -> void {
 
   //REVIEW: Local Variables Declaration
 
-  std::string file_path = "../html/";
+  const_str file_path = "../html/";
 
-  const_str create_file = file_path.append(user_file_name);
+  const_str file_path_name = file_path + user_file_name;
+
+  const_str create_file = file_path_name;
 
   //ANCHOR: Algorithm and Statements to Execute
 
@@ -22,3 +24,6 @@ auto create_user_file(const_str &user_file_name) -> void {
 
 //ANCHOR: Learning reference for setting file path for fstream file
 //LINK: https://stackoverflow.com/questions/8068921/how-to-use-fstream-objects-with-relative-path
+
+//ANCHOR: 
+//LINK: https://stackoverflow.com/questions/25225948/how-to-check-if-a-file-exists-in-c-with-fstreamopen
