@@ -176,6 +176,30 @@ source/create_destroy_arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.s
 .PHONY : source/create_destroy_arrays.cpp.s
 
+source/create_user_file.obj: source/create_user_file.cpp.obj
+.PHONY : source/create_user_file.obj
+
+# target to build an object file
+source/create_user_file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_user_file.cpp.obj
+.PHONY : source/create_user_file.cpp.obj
+
+source/create_user_file.i: source/create_user_file.cpp.i
+.PHONY : source/create_user_file.i
+
+# target to preprocess a source file
+source/create_user_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_user_file.cpp.i
+.PHONY : source/create_user_file.cpp.i
+
+source/create_user_file.s: source/create_user_file.cpp.s
+.PHONY : source/create_user_file.s
+
+# target to generate assembly for a file
+source/create_user_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_user_file.cpp.s
+.PHONY : source/create_user_file.cpp.s
+
 source/enter_name_of_the_file.obj: source/enter_name_of_the_file.cpp.obj
 .PHONY : source/enter_name_of_the_file.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... source/create_destroy_arrays.obj
 	@echo ... source/create_destroy_arrays.i
 	@echo ... source/create_destroy_arrays.s
+	@echo ... source/create_user_file.obj
+	@echo ... source/create_user_file.i
+	@echo ... source/create_user_file.s
 	@echo ... source/enter_name_of_the_file.obj
 	@echo ... source/enter_name_of_the_file.i
 	@echo ... source/enter_name_of_the_file.s
