@@ -90,7 +90,7 @@ auto enter_file_name() -> std::string {
   if(is_valid_key == false) {
     system("cls");
     std::cout << "\nInvalid confirmation key -> \"" << enter_key << "\". file failed to create.";
-    std::cout << "\nPlease try again and enter the valid confirmation key.\n";
+    std::cout << "\nPlease try again and re-enter the valid confirmation key.\n";
 
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
