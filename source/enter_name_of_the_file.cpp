@@ -28,7 +28,7 @@ auto enter_file_name() -> std::string {
 
   size_t dot_html_index = 0;
 
-  //NOTE: Algorithm and Statements to Execute
+  //ANCHOR: Algorithm and Statements to Execute
   
   std::cout << "\nPLEASE DO NOT USE SPACES IN YOUR FILE NAME!";
   std::cout << "\nEnter proper file name (without spaces) and end it with \".html\" file extension   : ";
@@ -55,7 +55,7 @@ auto enter_file_name() -> std::string {
   //REVIEW: find ".html" characters index in user entered file name
   dot_html_index = enter_proper_file_name.find(dot_html_ext);
 
-  //REVIEW: if ".html" characters is at string index, return true
+  //REVIEW: if ".html" characters is at string index, return false
   is_dot_html    = dot_html_index != std::string::npos;
 
   if(is_dot_html) {
@@ -105,3 +105,10 @@ auto enter_file_name() -> std::string {
   return enter_proper_file_name;
 
 }
+
+//ANCHOR: Learning reference for resetting state of `std::cin`
+//LINK: https://stackoverflow.com/questions/25020129/cin-ignorenumeric-limitsstreamsizemax-n
+//LINK: https://en.cppreference.com/w/cpp/types/numeric_limits
+
+//ANCHOR: Learning reference for STL iterator
+//LINK: https://en.cppreference.com/w/cpp/algorithm/remove

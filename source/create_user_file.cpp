@@ -4,13 +4,13 @@ auto create_user_file(const_str &user_file_name) -> void {
 
   //REVIEW: Local Variables Declaration
 
-  std::string file_path = "/BSCS1_CCS102_Computer_Programming_Finals/html/";
+  std::string file_path = "../html/";
 
-  // const_str create_file = file_path.append(user_file_name);
+  const_str create_file = file_path.append(user_file_name);
 
-  //REVIEW: Algorithm and Statements to Execute
+  //ANCHOR: Algorithm and Statements to Execute
 
-  std::fstream file_html(user_file_name, std::ios::app);
+  std::fstream file_html(create_file, std::ios::app);
 
   if(file_html.is_open()) {
     std::cout << "\n\"" << user_file_name << "\" is now open";
@@ -20,6 +20,5 @@ auto create_user_file(const_str &user_file_name) -> void {
 
 }
 
-//ANCHOR: Learning reference
-//LINK: https://stackoverflow.com/questions/9739948/write-a-file-in-a-specific-path-in-c
-//LINK: https://stackoverflow.com/questions/37857717/set-default-directory-path-in-fstream-in-c
+//ANCHOR: Learning reference for setting file path for fstream file
+//LINK: https://stackoverflow.com/questions/8068921/how-to-use-fstream-objects-with-relative-path
