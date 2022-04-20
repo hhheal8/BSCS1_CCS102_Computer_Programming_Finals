@@ -1,7 +1,7 @@
 #ifndef CREATE_DESTROY_ARRAYS_H
 #define CREATE_DESTROY_ARRAYS_H
 
-#include "types_and_type_aliases.hpp"
+#include "types_aliases.hpp"
 
 //REVIEW: `constexpr` - so array will be known at compile time
 

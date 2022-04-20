@@ -27,6 +27,7 @@ auto enter_file_name() -> std::string {
 
   //ANCHOR: Algorithm and Statements to Execute
   
+  system("cls");
   std::cout << "\nPLEASE DO NOT USE SPACES IN YOUR FILE NAME!";
   std::cout << "\nEnter proper file name (without spaces) and end it with \".html\" file extension   : ";
   std::getline(std::cin, user_proper_file_name);

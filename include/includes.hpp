@@ -3,6 +3,7 @@
 
 #include <algorithm>
 #include <cstddef>
+#include <functional>
 #include <fstream>
 #include <iostream>
 #include <ios>
