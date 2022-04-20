@@ -1,5 +1,5 @@
-#ifndef PREPROCESSOR_DIRECTIVE_INCLUDES_H
-#define PREPROCESSOR_DIRECTIVE_INCLUDES_H
+#ifndef INCLUDES_H
+#define INCLUDES_H
 
 #include <algorithm>
 #include <cstddef>
@@ -10,4 +10,4 @@
 #include <limits>
 #include <string>
 
-#endif // PREPROCESSOR_DIRECTIVE_INCLUDES_H
+#endif // INCLUDES_H

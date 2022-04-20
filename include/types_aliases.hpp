@@ -1,5 +1,5 @@
-#ifndef TYPES_AND_TYPE_ALIASES_H
-#define TYPES_AND_TYPE_ALIASES_H
+#ifndef TYPES_ALIASES_H
+#define TYPES_ALIASES_H
 
 #include "includes.hpp"
 
@@ -8,4 +8,4 @@ using ull       = unsigned long long;
 using const_ull = const unsigned long long;
 using const_str = const std::string;
 
-#endif // TYPES_AND_TYPE_ALIASES_H
+#endif // TYPES_ALIASES_H
