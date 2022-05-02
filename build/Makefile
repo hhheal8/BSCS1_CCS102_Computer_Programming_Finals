@@ -224,6 +224,54 @@ source/enter_name_of_the_file.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.s
 .PHONY : source/enter_name_of_the_file.cpp.s
 
+source/information_contains.obj: source/information_contains.cpp.obj
+.PHONY : source/information_contains.obj
+
+# target to build an object file
+source/information_contains.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj
+.PHONY : source/information_contains.cpp.obj
+
+source/information_contains.i: source/information_contains.cpp.i
+.PHONY : source/information_contains.i
+
+# target to preprocess a source file
+source/information_contains.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.i
+.PHONY : source/information_contains.cpp.i
+
+source/information_contains.s: source/information_contains.cpp.s
+.PHONY : source/information_contains.s
+
+# target to generate assembly for a file
+source/information_contains.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.s
+.PHONY : source/information_contains.cpp.s
+
+source/validate_user.obj: source/validate_user.cpp.obj
+.PHONY : source/validate_user.obj
+
+# target to build an object file
+source/validate_user.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj
+.PHONY : source/validate_user.cpp.obj
+
+source/validate_user.i: source/validate_user.cpp.i
+.PHONY : source/validate_user.i
+
+# target to preprocess a source file
+source/validate_user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.i
+.PHONY : source/validate_user.cpp.i
+
+source/validate_user.s: source/validate_user.cpp.s
+.PHONY : source/validate_user.s
+
+# target to generate assembly for a file
+source/validate_user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.s
+.PHONY : source/validate_user.cpp.s
+
 start/start_program.obj: start/start_program.cpp.obj
 .PHONY : start/start_program.obj
 
@@ -248,6 +296,30 @@ start/start_program.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.s
 .PHONY : start/start_program.cpp.s
 
+tools/recursive_fun.obj: tools/recursive_fun.cpp.obj
+.PHONY : tools/recursive_fun.obj
+
+# target to build an object file
+tools/recursive_fun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj
+.PHONY : tools/recursive_fun.cpp.obj
+
+tools/recursive_fun.i: tools/recursive_fun.cpp.i
+.PHONY : tools/recursive_fun.i
+
+# target to preprocess a source file
+tools/recursive_fun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.i
+.PHONY : tools/recursive_fun.cpp.i
+
+tools/recursive_fun.s: tools/recursive_fun.cpp.s
+.PHONY : tools/recursive_fun.s
+
+# target to generate assembly for a file
+tools/recursive_fun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.s
+.PHONY : tools/recursive_fun.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -269,9 +341,18 @@ help:
 	@echo ... source/enter_name_of_the_file.obj
 	@echo ... source/enter_name_of_the_file.i
 	@echo ... source/enter_name_of_the_file.s
+	@echo ... source/information_contains.obj
+	@echo ... source/information_contains.i
+	@echo ... source/information_contains.s
+	@echo ... source/validate_user.obj
+	@echo ... source/validate_user.i
+	@echo ... source/validate_user.s
 	@echo ... start/start_program.obj
 	@echo ... start/start_program.i
 	@echo ... start/start_program.s
+	@echo ... tools/recursive_fun.obj
+	@echo ... tools/recursive_fun.i
+	@echo ... tools/recursive_fun.s
 .PHONY : help
 
 

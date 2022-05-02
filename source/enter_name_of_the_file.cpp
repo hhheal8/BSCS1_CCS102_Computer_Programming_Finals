@@ -27,7 +27,6 @@ auto enter_file_name() -> std::string {
 
   //ANCHOR: Algorithm and Statements to Execute
   
-  system("cls");
   std::cout << "\nPLEASE DO NOT USE SPACES IN YOUR FILE NAME!";
   std::cout << "\nEnter proper file name (without spaces) and end it with \".html\" file extension   : ";
   std::getline(std::cin, user_proper_file_name);
@@ -81,7 +80,7 @@ auto enter_file_name() -> std::string {
 
   if(is_valid_ext == false) {
     system("cls");
-    std::cout << "\nInvalid file format -> \"" << user_proper_file_name << "\". file failed to create.";
+    std::cout << "\nInvalid file format -> \"" << user_proper_file_name << "\". File failed to create.";
     std::cout << "\nFile must end with \".html\" file extension";
     std::cout << "\nRe-enter proper file name (without spaces) and end it with \".html\" file extension:\n";
 
@@ -90,7 +89,7 @@ auto enter_file_name() -> std::string {
 
   if(is_valid_key == false) {
     system("cls");
-    std::cout << "\nInvalid confirmation key -> \"" << enter_key << "\". file failed to create.";
+    std::cout << "\nInvalid confirmation key -> \"" << enter_key << "\". File failed to create.";
     std::cout << "\nPlease try again and re-enter the valid confirmation key.\n";
 
     std::cin.clear();

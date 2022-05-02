@@ -128,11 +128,41 @@ CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\enter_name_of_the_file.cpp -o CMakeFiles\CxxFinals2022.dir\source\enter_name_of_the_file.cpp.s
 
+CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj: CMakeFiles/CxxFinals2022.dir/flags.make
+CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj: CMakeFiles/CxxFinals2022.dir/includes_CXX.rsp
+CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj: ../source/information_contains.cpp
+CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj: CMakeFiles/CxxFinals2022.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj -MF CMakeFiles\CxxFinals2022.dir\source\information_contains.cpp.obj.d -o CMakeFiles\CxxFinals2022.dir\source\information_contains.cpp.obj -c C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\information_contains.cpp
+
+CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\information_contains.cpp > CMakeFiles\CxxFinals2022.dir\source\information_contains.cpp.i
+
+CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\information_contains.cpp -o CMakeFiles\CxxFinals2022.dir\source\information_contains.cpp.s
+
+CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj: CMakeFiles/CxxFinals2022.dir/flags.make
+CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj: CMakeFiles/CxxFinals2022.dir/includes_CXX.rsp
+CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj: ../source/validate_user.cpp
+CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj: CMakeFiles/CxxFinals2022.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj -MF CMakeFiles\CxxFinals2022.dir\source\validate_user.cpp.obj.d -o CMakeFiles\CxxFinals2022.dir\source\validate_user.cpp.obj -c C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\validate_user.cpp
+
+CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\validate_user.cpp > CMakeFiles\CxxFinals2022.dir\source\validate_user.cpp.i
+
+CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\validate_user.cpp -o CMakeFiles\CxxFinals2022.dir\source\validate_user.cpp.s
+
 CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj: CMakeFiles/CxxFinals2022.dir/flags.make
 CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj: CMakeFiles/CxxFinals2022.dir/includes_CXX.rsp
 CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj: ../start/start_program.cpp
 CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj: CMakeFiles/CxxFinals2022.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj -MF CMakeFiles\CxxFinals2022.dir\start\start_program.cpp.obj.d -o CMakeFiles\CxxFinals2022.dir\start\start_program.cpp.obj -c C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\start\start_program.cpp
 
 CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.i: cmake_force
@@ -143,13 +173,31 @@ CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\start\start_program.cpp -o CMakeFiles\CxxFinals2022.dir\start\start_program.cpp.s
 
+CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj: CMakeFiles/CxxFinals2022.dir/flags.make
+CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj: CMakeFiles/CxxFinals2022.dir/includes_CXX.rsp
+CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj: ../tools/recursive_fun.cpp
+CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj: CMakeFiles/CxxFinals2022.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj -MF CMakeFiles\CxxFinals2022.dir\tools\recursive_fun.cpp.obj.d -o CMakeFiles\CxxFinals2022.dir\tools\recursive_fun.cpp.obj -c C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\tools\recursive_fun.cpp
+
+CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\tools\recursive_fun.cpp > CMakeFiles\CxxFinals2022.dir\tools\recursive_fun.cpp.i
+
+CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\tools\recursive_fun.cpp -o CMakeFiles\CxxFinals2022.dir\tools\recursive_fun.cpp.s
+
 # Object files for target CxxFinals2022
 CxxFinals2022_OBJECTS = \
 "CMakeFiles/CxxFinals2022.dir/main.cpp.obj" \
 "CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.obj" \
 "CMakeFiles/CxxFinals2022.dir/source/create_user_file.cpp.obj" \
 "CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.obj" \
-"CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj"
+"CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj" \
+"CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj" \
+"CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj" \
+"CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj"
 
 # External object files for target CxxFinals2022
 CxxFinals2022_EXTERNAL_OBJECTS =
@@ -158,12 +206,15 @@ CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/main.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/source/create_user_file.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/source/enter_name_of_the_file.cpp.obj
+CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/source/information_contains.cpp.obj
+CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/source/validate_user.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/start/start_program.cpp.obj
+CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/tools/recursive_fun.cpp.obj
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/build.make
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/linklibs.rsp
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/objects1.rsp
 CxxFinals2022.exe: CMakeFiles/CxxFinals2022.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CxxFinals2022.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CxxFinals2022.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CxxFinals2022.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

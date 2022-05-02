@@ -47,3 +47,31 @@ auto destroy_2d_array(ArrayType **table_data, const_ull &size) -> void {
   table_data = nullptr;
 
 }
+
+//REVIEW: Template specialization
+
+//NOTE: Specialization for std::string
+
+template<>
+std::string *create_1d_array<std::string>(const_ull &size) {
+
+  std::string *table_data = nullptr;
+  table_data = new std::string[size];
+
+  return table_data;
+
+}
+
+template<>
+std::string **create_2d_array<std::string>(const_ull &rows, const_ull &columns) {
+
+  std::string **table_data = nullptr;
+  table_data = new std::string*[rows];
+
+  for(ull i = 0; i < rows; ++i) {
+    table_data[i] = new std::string[columns];
+  }
+
+  return table_data;
+
+}

@@ -14,7 +14,8 @@ add_executable(
   source/create_destroy_arrays.cpp
   source/create_user_file.cpp
   source/enter_name_of_the_file.cpp
-  source/home.cpp
+  source/information_contains.cpp
+  source/validate_user.cpp
 
   start/start_program.cpp
 

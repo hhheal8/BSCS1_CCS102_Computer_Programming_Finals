@@ -1,8 +1,8 @@
 CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.obj: \
  C:\Users\ictgi\Desktop\BSCS1_CCS102_Computer_Programming_Finals\source\create_destroy_arrays.cpp \
  C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/include/create_destroy_arrays.hpp \
- C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/include/types_and_type_aliases.hpp \
- C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/include/preprocessor_directive_includes.hpp \
+ C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/include/types_aliases.hpp \
+ C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/include/includes.hpp \
  c:\mingw64\include\c++\11.2.0\algorithm \
  c:\mingw64\include\c++\11.2.0\utility \
  c:\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \

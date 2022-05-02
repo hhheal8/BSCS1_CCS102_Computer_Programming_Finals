@@ -17,5 +17,15 @@ auto destroy_1d_array(ArrayType *table_data, const_ull &size) -> void;
 template<typename ArrayType>
 auto destroy_2d_array(ArrayType **table_data, const_ull &size) -> void;
 
+//REVIEW: Template specialization
+
+//NOTE: Specialization for std::string
+
+template<>
+std::string *create_1d_array<std::string>(const_ull &size);
+
+template<>
+std::string **create_2d_array<std::string>(const_ull &rows, const_ull &columns);
+
 
 #endif // CREATE_DESTROY_ARRAYS_H

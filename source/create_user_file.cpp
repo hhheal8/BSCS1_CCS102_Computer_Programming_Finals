@@ -15,7 +15,7 @@ auto create_user_file(const_str &user_file_name) -> void {
   std::fstream file_html(create_file, std::ios::app);
 
   if(file_html.is_open()) {
-    std::cout << "\n\"" << user_file_name << "\" is now open";
+    std::cout << "\n\"" << user_file_name << "\" is now open.\n";
   }
 
   file_html.close();
