@@ -29,6 +29,21 @@ auto information_as_columns() -> unint {
 
 }
 
+auto business_basic_info(std::string *table_data, const_ull &rows) -> void {
+
+  std::string basic_info = "";
+
+  std::cin.ignore();
+  for(size_t i = 0; i < rows; ++i) {
+
+    std::cout << "Enter business basic info no. " << i + 1 << ": ";
+    std::getline(std::cin, basic_info);
+
+    table_data[i] = basic_info;
+
+  }
+
+}
 
 auto number_of_information() -> void {
 
@@ -36,9 +51,13 @@ auto number_of_information() -> void {
   unint columns = information_as_columns();
 
   std::string *list_business_info  = create_1d_array<std::string>(rows);
-
   std::string **list_business_data = create_2d_array<std::string>(rows, columns);
 
+  system("cls");
+  std::cout << "\nEnter business basic info (Store Name, Contact Info, Email, Address, Location, etc)   :-\n";
+  business_basic_info(list_business_info, rows);
 
+  destroy_1d_array<std::string>(list_business_info, rows);
+  destroy_2d_array<std::string>(list_business_data, rows);
 
 }

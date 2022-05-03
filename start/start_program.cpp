@@ -11,5 +11,7 @@ auto start_program() -> void {
   const_str dot_html_file  = user_file_name;
 
   create_user_file(dot_html_file);
+
+  number_of_information();
   
 }

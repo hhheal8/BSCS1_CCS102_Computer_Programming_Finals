@@ -12,7 +12,7 @@ auto create_user_file(const_str &user_file_name) -> void {
 
   //ANCHOR: Algorithm and Statements to Execute
 
-  std::fstream file_html(create_file, std::ios::app);
+  std::fstream file_html(create_file, std::ios::in|std::ios::out|std::ios::app);
 
   if(file_html.is_open()) {
     std::cout << "\n\"" << user_file_name << "\" is now open.\n";

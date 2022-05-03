@@ -9,6 +9,7 @@ auto validate_user_var(Var &val, const_str &msg) -> void;
 //REVIEW: Template specialization
 
 //NOTE: Template specialization for unsigned int
+
 template<>
 auto validate_user_var(unint &val, const_str &msg) -> void;
 

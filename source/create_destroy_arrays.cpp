@@ -75,3 +75,23 @@ std::string **create_2d_array<std::string>(const_ull &rows, const_ull &columns) 
   return table_data;
 
 }
+
+template<>
+auto destroy_1d_array(std::string *table_data, const_ull &size) -> void {
+
+  delete[] table_data;
+  table_data = nullptr;
+
+}
+
+template<>
+auto destroy_2d_array(std::string **table_data, const_ull &size) -> void {
+
+  for(ull i = 0; i < size; ++i) {
+    delete[] table_data[i];
+  }
+  
+  delete[] table_data;
+  table_data = nullptr;
+
+}

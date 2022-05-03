@@ -27,5 +27,10 @@ std::string *create_1d_array<std::string>(const_ull &size);
 template<>
 std::string **create_2d_array<std::string>(const_ull &rows, const_ull &columns);
 
+template<>
+auto destroy_1d_array(std::string *table_data, const_ull &size) -> void;
+
+template<>
+auto destroy_2d_array(std::string **table_data, const_ull &size) -> void;
 
 #endif // CREATE_DESTROY_ARRAYS_H
