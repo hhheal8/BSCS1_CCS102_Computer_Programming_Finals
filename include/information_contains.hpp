@@ -8,6 +8,6 @@ auto information_as_columns() -> unint;
 
 auto business_basic_info(std::string *table_data, const_ull &rows) -> void;
 
-auto number_of_information() -> void;
+auto number_of_information(std::fstream &file_html) -> void;
 
 #endif // INFORMATION_CONTAINS_H

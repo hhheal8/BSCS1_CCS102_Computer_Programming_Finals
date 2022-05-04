@@ -1,6 +1,9 @@
 #include "create_user_file.hpp"
 
-auto create_user_file(const_str &user_file_name) -> void {
+#include "create_table_data.hpp"
+#include "information_contains.hpp"
+
+auto create_user_file(const_str &user_file_name) -> std::string {
 
   //REVIEW: Local Variables Declaration
 
@@ -10,15 +13,7 @@ auto create_user_file(const_str &user_file_name) -> void {
 
   const_str create_file = file_path_name;
 
-  //ANCHOR: Algorithm and Statements to Execute
-
-  std::fstream file_html(create_file, std::ios::in|std::ios::out|std::ios::app);
-
-  if(file_html.is_open()) {
-    std::cout << "\n\"" << user_file_name << "\" is now open.\n";
-  }
-
-  file_html.close();
+  return create_file;
 
 }
 

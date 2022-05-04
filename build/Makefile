@@ -176,6 +176,30 @@ source/create_destroy_arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_destroy_arrays.cpp.s
 .PHONY : source/create_destroy_arrays.cpp.s
 
+source/create_table_data.obj: source/create_table_data.cpp.obj
+.PHONY : source/create_table_data.obj
+
+# target to build an object file
+source/create_table_data.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_table_data.cpp.obj
+.PHONY : source/create_table_data.cpp.obj
+
+source/create_table_data.i: source/create_table_data.cpp.i
+.PHONY : source/create_table_data.i
+
+# target to preprocess a source file
+source/create_table_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_table_data.cpp.i
+.PHONY : source/create_table_data.cpp.i
+
+source/create_table_data.s: source/create_table_data.cpp.s
+.PHONY : source/create_table_data.s
+
+# target to generate assembly for a file
+source/create_table_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CxxFinals2022.dir\build.make CMakeFiles/CxxFinals2022.dir/source/create_table_data.cpp.s
+.PHONY : source/create_table_data.cpp.s
+
 source/create_user_file.obj: source/create_user_file.cpp.obj
 .PHONY : source/create_user_file.obj
 
@@ -335,6 +359,9 @@ help:
 	@echo ... source/create_destroy_arrays.obj
 	@echo ... source/create_destroy_arrays.i
 	@echo ... source/create_destroy_arrays.s
+	@echo ... source/create_table_data.obj
+	@echo ... source/create_table_data.i
+	@echo ... source/create_table_data.s
 	@echo ... source/create_user_file.obj
 	@echo ... source/create_user_file.i
 	@echo ... source/create_user_file.s

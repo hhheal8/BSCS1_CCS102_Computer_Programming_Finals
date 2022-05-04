@@ -1,6 +1,7 @@
 #include "information_contains.hpp"
 
 #include "create_destroy_arrays.hpp"
+#include "create_table_data.hpp"
 #include "validate_user.hpp"
 
 auto information_as_rows() -> unint {
@@ -45,7 +46,7 @@ auto business_basic_info(std::string *table_data, const_ull &rows) -> void {
 
 }
 
-auto number_of_information() -> void {
+auto number_of_information(std::fstream &file_html) -> void {
 
   unint rows    = information_as_rows();
   unint columns = information_as_columns();
@@ -56,6 +57,10 @@ auto number_of_information() -> void {
   system("cls");
   std::cout << "\nEnter business basic info (Store Name, Contact Info, Email, Address, Location, etc)   :-\n";
   business_basic_info(list_business_info, rows);
+
+  create_table_data(file_html, list_business_info, rows);
+
+  
 
   destroy_1d_array<std::string>(list_business_info, rows);
   destroy_2d_array<std::string>(list_business_data, rows);

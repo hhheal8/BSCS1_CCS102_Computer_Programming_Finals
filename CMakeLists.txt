@@ -12,6 +12,7 @@ add_executable(
   main.cpp
 
   source/create_destroy_arrays.cpp
+  source/create_table_data.cpp
   source/create_user_file.cpp
   source/enter_name_of_the_file.cpp
   source/information_contains.cpp

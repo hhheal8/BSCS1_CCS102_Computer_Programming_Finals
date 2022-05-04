@@ -11,6 +11,11 @@
 },
 {
   "directory": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/CxxFinals2022.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CxxFinals2022.dir\\source\\create_table_data.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS1_CCS102_Computer_Programming_Finals\\source\\create_table_data.cpp",
+  "file": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/source/create_table_data.cpp"
+},
+{
+  "directory": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/build",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/CxxFinals2022.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\CxxFinals2022.dir\\source\\create_user_file.cpp.obj -c C:\\Users\\ictgi\\Desktop\\BSCS1_CCS102_Computer_Programming_Finals\\source\\create_user_file.cpp",
   "file": "C:/Users/ictgi/Desktop/BSCS1_CCS102_Computer_Programming_Finals/source/create_user_file.cpp"
 },
